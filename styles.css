@@ -1,6 +1,8 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -8,6 +10,7 @@ body {
     width: 200px;
     background-color: red;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -15,5 +18,9 @@ body {
 .container div {
     color: lightgreen;
     background-color: blue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
-
